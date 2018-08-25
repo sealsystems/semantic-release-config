@@ -1,0 +1,30 @@
+{
+  "name": "semantic-release-config",
+  "version": "1.0.0",
+  "description": "Configuration for semantic releases at SEAL Systems",
+  "dependencies": {
+    "@semantic-release/changelog": "3.0.0",
+    "@semantic-release/git": "7.0.2",
+    "@semantic-release/npm": "5.0.2"
+  },
+  "devDependencies": {
+    "roboter": "1.0.6"
+  },
+  "scripts": {
+    "test": "bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sealsystems/semantic-release-config.git"
+  },
+  "author": {
+    "name": "SEAL Systems AG",
+    "email": "support@sealsystems.de",
+    "url": "http://www.sealsystems.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sealsystems/semantic-release-config/issues"
+  },
+  "homepage": "https://github.com/sealsystems/semantic-release-config#readme"
+}
