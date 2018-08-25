@@ -17,13 +17,17 @@ module.exports = {
   /* eslint-disable no-template-curly-in-string */
   tagFormat: '${version}',
   /* eslint-enable no-template-curly-in-string */
+  analyzeCommits: {
+    preset: "angular",
+    parserOpts: {
+      noteKeywords: [ 'BREAKING CHANGES' ]
+    }
+  },
   generateNotes: {
     preset: 'angular',
     parserOpts: {
       issuePrefixes: [ 'gh-', 'jira-' ],
-      noteKeywords: [
-        'BREAKING CHANGES'
-      ],
+      noteKeywords: [ 'BREAKING CHANGES' ],
       referenceActions: null
     },
     writerOpts: {
