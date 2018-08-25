@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release-config",
+  "name": "@sealsystems/semantic-release-config",
   "version": "1.0.0",
   "description": "Configuration for semantic releases at SEAL Systems",
   "dependencies": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/sealsystems/semantic-release-config/issues"
   },
-  "homepage": "https://github.com/sealsystems/semantic-release-config#readme"
+  "homepage": "https://github.com/sealsystems/semantic-release-config#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
