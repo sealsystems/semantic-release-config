@@ -36,22 +36,26 @@ module.exports = {
 
 {{#each commitGroups}}
 
-{{#if title}}#### {{title}}{{/if}}
+{{#if title}}
+### {{title}}
+{{/if}}
 
 {{#each commits}}
 {{> commit root=@root}}
 {{/each}}
 {{/each}}
 
-{{> footer}}`,
+{{> footer}}
+
+---`,
 
       headerPartial: `
-### {{version}}
+## {{version}}
   {{~#if date}} ({{date}})
   {{~/if~}}`,
 
       commitPartial: `
-##### {{subject}}
+#### {{subject}}
 
 {{~!-- commit references --}}
 {{~#if references~}}
@@ -87,10 +91,10 @@ module.exports = {
 {{#if noteGroups}}
 {{#each noteGroups}}
 
-#### {{title}}
+### {{title}}
 
 {{#each notes}}
-##### {{text}}
+#### {{text}}
 {{/each}}
 {{/each}}
 {{/if}}`
