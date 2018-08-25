@@ -6,11 +6,7 @@ module.exports = {
     '@semantic-release/git'
   ],
   prepare: [
-    {
-      path: '@semantic-release/changelog',
-      issuePrefixes: [ 'gh-', 'jira-' ],
-      referenceActions: null
-    },
+    '@semantic-release/changelog',
     {
       path: '@semantic-release/git',
       /* eslint-disable no-template-curly-in-string */
@@ -27,6 +23,10 @@ module.exports = {
       noteKeywords: [
         'BREAKING CHANGES'
       ]
+    },
+    parserOpts: {
+      issuePrefixes: [ 'gh-', 'jira-' ],
+      referenceActions: null
     },
     writerOpts: {
       mainTemplate: `
