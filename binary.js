@@ -20,12 +20,10 @@ module.exports = {
   generateNotes: {
     preset: 'angular',
     parserOpts: {
+      issuePrefixes: [ 'gh-', 'jira-' ],
       noteKeywords: [
         'BREAKING CHANGES'
-      ]
-    },
-    parserOpts: {
-      issuePrefixes: [ 'gh-', 'jira-' ],
+      ],
       referenceActions: null
     },
     writerOpts: {
