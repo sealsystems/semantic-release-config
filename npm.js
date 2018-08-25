@@ -1,16 +1,8 @@
 'use strict';
 
-const common = require('./common');
+const result = require('./binary');
 
-module.exports = Object.assign(common, {
-  verifyConditions: [
-    '@semantic-release/changelog',
-    '@semantic-release/npm',
-    '@semantic-release/git'
-  ],
-  prepare: [
-    '@semantic-release/changelog',
-    '@semantic-release/npm',
-    '@semantic-release/git'
-  ]
-});
+result.verifyConditions.splice(1, 0, '@semantic-release/npm');
+result.prepare.splice(1, 0, '@semantic-release/npm');
+
+module.exports = result;
