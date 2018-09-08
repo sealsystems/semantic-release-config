@@ -1,13 +1,14 @@
 'use strict';
 
-const result = require('./generic');
+const cloneDeep = require('clone-deep');
+
+const nodeBinary = require('./node-binary');
+const result = cloneDeep(nodeBinary);
 
 // Releases of modules may be ignored by the CI
 /* eslint-disable no-template-curly-in-string */
-result.prepare[1].message = '[ci skip] ${result.prepare[1].message}';
+result.prepare[2].message = `[ci skip] ${result.prepare[2].message}`;
 /* eslint-enable no-template-curly-in-string */
-
-result.verifyConditions.splice(1, 0, '@semantic-release/npm');
-result.prepare.splice(1, 0, '@semantic-release/npm');
+result.npmPublish = true;
 
 module.exports = result;
