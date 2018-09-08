@@ -23,7 +23,7 @@ suite('nodeModule', () => {
         {
           path: '@semantic-release/git',
           /* eslint-disable no-template-curly-in-string */
-          message: '[ci skip] Release ${nextRelease.version}'
+          message: 'Release ${nextRelease.version}'
           /* eslint-enable no-template-curly-in-string */
         }
       ],
