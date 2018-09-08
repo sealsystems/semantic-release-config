@@ -18,7 +18,7 @@ module.exports = {
   tagFormat: '${version}',
   /* eslint-enable no-template-curly-in-string */
   analyzeCommits: {
-    preset: "angular",
+    preset: 'angular',
     parserOpts: {
       noteKeywords: [ 'BREAKING CHANGES' ]
     }
