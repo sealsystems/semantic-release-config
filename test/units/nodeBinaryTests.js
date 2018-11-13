@@ -36,7 +36,10 @@ suite('nodeBinary', () => {
           noteKeywords: [
             'BREAKING CHANGES'
           ]
-        }
+        },
+        releaseRules: [
+          { type: 'chore', release: 'patch' }
+        ]
       },
       generateNotes: {
         preset: 'angular',

@@ -23,7 +23,10 @@ module.exports = {
     preset: 'angular',
     parserOpts: {
       noteKeywords: [ 'BREAKING CHANGES' ]
-    }
+    },
+    releaseRules: [
+      { type: 'chore', release: 'patch' }
+    ]
   },
   generateNotes: {
     preset: 'angular',
