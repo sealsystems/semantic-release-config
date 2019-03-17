@@ -1,3 +1,14 @@
+## 3.3.0 (2019-03-17)
+
+### Features
+
+
+#### Provide release script ([54af315](https://github.com/sealsystems/node-semantic-release-config/commit/54af315))
+
+
+
+---
+
 ## 3.2.0 (2019-03-17)
 
 ### Features
