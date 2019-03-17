@@ -3,10 +3,7 @@
 const changelogTemplate = require('./changelog-template.js');
 
 module.exports = {
-  verifyConditions: [
-    '@semantic-release/changelog',
-    '@semantic-release/git'
-  ],
+  verifyConditions: ['@semantic-release/changelog', '@semantic-release/git'],
   prepare: [
     '@semantic-release/changelog',
     {
@@ -24,14 +21,12 @@ module.exports = {
     parserOpts: {
       noteKeywords: ['BREAKING CHANGES']
     },
-    releaseRules: [
-      { type: 'chore', release: 'patch' }
-    ]
+    releaseRules: [{ type: 'chore', release: 'patch' }]
   },
   generateNotes: {
     preset: 'angular',
     parserOpts: {
-      issuePrefixes: ['https://github.com/plossys/', 'https://jira.sealsystems.de/jira/browse/'],
+      issuePrefixes: ['https://github.com/', 'https://jira.sealsystems.de/jira/browse/'],
       noteKeywords: ['BREAKING CHANGES'],
       referenceActions: null
     },

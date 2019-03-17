@@ -10,13 +10,15 @@
     "semantic-release": "15.13.3"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "https://github.com/sealsystems/node-eslint-config-es",
-    "assertthat": "2.0.3"
+    "@sealsystems/eslint-config-es": "3.0.0",
+    "assertthat": "2.0.3",
+    "mocha": "6.0.2"
   },
   "scripts": {
     "bot": "bot",
     "lint": "lint",
     "lint:fix": "lint-fix",
+    "test": "mocha",
     "release": "semantic-release --branch ${CIRCLE_BRANCH}"
   },
   "repository": {

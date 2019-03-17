@@ -2,21 +2,17 @@
 
 const assert = require('assertthat');
 
-const nodeModule = require('../../node-module');
-const changelogTemplate = require('../../changelog-template');
+const nodeBinary = require('../node-binary');
+const changelogTemplate = require('../changelog-template');
 
-suite('nodeModule', () => {
+suite('nodeBinary', () => {
   test('is an object', async () => {
-    assert.that(nodeModule).is.ofType('object');
+    assert.that(nodeBinary).is.ofType('object');
   });
 
   test('contains the expected contents.', async () => {
-    assert.that(nodeModule).is.equalTo({
-      verifyConditions: [
-        '@semantic-release/changelog',
-        '@semantic-release/npm',
-        '@semantic-release/git'
-      ],
+    assert.that(nodeBinary).is.equalTo({
+      verifyConditions: ['@semantic-release/changelog', '@semantic-release/npm', '@semantic-release/git'],
       prepare: [
         '@semantic-release/changelog',
         '@semantic-release/npm',
@@ -33,29 +29,20 @@ suite('nodeModule', () => {
       analyzeCommits: {
         preset: 'angular',
         parserOpts: {
-          noteKeywords: [
-            'BREAKING CHANGES'
-          ]
+          noteKeywords: ['BREAKING CHANGES']
         },
-        releaseRules: [
-          { type: 'chore', release: 'patch' }
-        ]
+        releaseRules: [{ type: 'chore', release: 'patch' }]
       },
       generateNotes: {
         preset: 'angular',
         parserOpts: {
-          issuePrefixes: [
-            'gh-',
-            'jira-'
-          ],
-          noteKeywords: [
-            'BREAKING CHANGES'
-          ],
+          issuePrefixes: ['https://github.com/', 'https://jira.sealsystems.de/jira/browse/'],
+          noteKeywords: ['BREAKING CHANGES'],
           referenceActions: null
         },
         writerOpts: changelogTemplate
       },
-      npmPublish: true
+      npmPublish: false
     });
   });
 });
