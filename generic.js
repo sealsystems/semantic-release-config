@@ -22,7 +22,7 @@ module.exports = {
   analyzeCommits: {
     preset: 'angular',
     parserOpts: {
-      noteKeywords: [ 'BREAKING CHANGES' ]
+      noteKeywords: ['BREAKING CHANGES']
     },
     releaseRules: [
       { type: 'chore', release: 'patch' }
@@ -31,8 +31,8 @@ module.exports = {
   generateNotes: {
     preset: 'angular',
     parserOpts: {
-      issuePrefixes: [ 'gh-', 'jira-' ],
-      noteKeywords: [ 'BREAKING CHANGES' ],
+      issuePrefixes: ['https://github.com/plossys/', 'https://jira.sealsystems.de/jira/browse/'],
+      noteKeywords: ['BREAKING CHANGES'],
       referenceActions: null
     },
     writerOpts: changelogTemplate

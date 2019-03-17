@@ -14,7 +14,9 @@
     "assertthat": "2.0.3"
   },
   "scripts": {
-    "bot": "bot"
+    "bot": "bot",
+    "lint": "lint",
+    "lint:fix": "lint-fix"
   },
   "repository": {
     "type": "git",
