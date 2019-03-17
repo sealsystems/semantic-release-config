@@ -10,18 +10,6 @@ First, you have to install the module as a development dependency:
 npm install --save-dev @sealsystems/semantic-release-config
 ```
 
-Alternatively, you can instruct your CI server to install it before creating a release:
-
-```shell
-npm install --no-save --save-dev @sealsystems/semantic-release-config
-```
-
-Please note: If you want to install multiple modules with the `--no-save` option, you must list all in the same `npm install` command:
-
-```shell
-npm install --no-save --save-dev @sealsystems/semantic-release-config semantic-release
-```
-
 The following release configurations are available:
 
 - Generic release
@@ -62,4 +50,20 @@ To release a Node.js binary, insert the following lines into your package.json:
 "release": {
   "extends": "@sealsystems/semantic-release-config/node-binary"
 }
+```
+
+### Calling the release script
+
+This module provides an NPM executable that calls `semantic-release`. To use it, add the following to the script section of your `package.json`:
+
+```json
+"scripts": {
+  "release": "release",
+}
+```
+
+Now, your CI server can run it:
+
+```bash
+npm run release
 ```
