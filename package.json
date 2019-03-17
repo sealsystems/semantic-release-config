@@ -3,21 +3,22 @@
   "version": "3.0.0",
   "description": "Configuration for semantic releases at SEAL Systems",
   "dependencies": {
-    "@semantic-release/changelog": "3.0.1",
-    "@semantic-release/git": "7.0.5",
-    "@semantic-release/npm": "5.1.1",
-    "clone-deep": "4.0.0"
+    "@semantic-release/changelog": "3.0.2",
+    "@semantic-release/git": "7.0.8",
+    "@semantic-release/npm": "5.1.4",
+    "clone-deep": "4.0.1",
+    "semantic-release": "15.13.3"
   },
   "devDependencies": {
-    "assertthat": "2.0.0",
-    "roboter": "3.0.0"
+    "@sealsystems/eslint-config-es": "https://github.com/sealsystems/node-eslint-config-es",
+    "assertthat": "2.0.3"
   },
   "scripts": {
-    "test": "bot"
+    "bot": "bot"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sealsystems/semantic-release-config.git"
+    "url": "git+https://github.com/sealsystems/node-semantic-release-config.git"
   },
   "author": {
     "name": "SEAL Systems AG",
@@ -26,10 +27,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sealsystems/semantic-release-config/issues"
+    "url": "https://github.com/sealsystems/node-semantic-release-config/issues"
   },
-  "homepage": "https://github.com/sealsystems/semantic-release-config#readme",
+  "homepage": "https://github.com/sealsystems/node-semantic-release-config#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "extends": "./node-module.js"
   }
 }
