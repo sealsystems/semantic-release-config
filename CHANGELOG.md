@@ -1,3 +1,14 @@
+## 3.2.0 (2019-03-17)
+
+### Features
+
+
+#### Linkify references ([f9f35e6](https://github.com/sealsystems/node-semantic-release-config/commit/f9f35e6))
+
+
+
+---
+
 ## 3.1.2 (2019-03-17)
 
 ### Chores
