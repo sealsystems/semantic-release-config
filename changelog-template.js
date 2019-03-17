@@ -102,7 +102,7 @@ module.exports = {
 
 {{~!-- commit references --}}
 {{~#if references~}}
-  {{~#each references}}, {{this.raw}}
+  {{~#each references}}, [{{this.issue}}]({{this.raw}})
   {{~/each~}}
 {{~/if}}
 
