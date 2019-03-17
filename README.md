@@ -52,7 +52,7 @@ To release a Node.js binary, insert the following lines into your package.json:
 }
 ```
 
-### Calling the release script
+## Calling the release script
 
 This module provides an NPM executable that calls `semantic-release`. To use it, add the following to the script section of your `package.json`:
 
