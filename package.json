@@ -16,7 +16,8 @@
   "scripts": {
     "bot": "bot",
     "lint": "lint",
-    "lint:fix": "lint-fix"
+    "lint:fix": "lint-fix",
+    "release": "semantic-release --branch ${CIRCLE_BRANCH}"
   },
   "repository": {
     "type": "git",
