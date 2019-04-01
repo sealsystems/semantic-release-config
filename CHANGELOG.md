@@ -1,3 +1,32 @@
+## 4.0.0 (2019-04-01)
+
+### Features
+
+
+#### Rename project ([60a6aa1](https://github.com/sealsystems/node-semantic-release/commit/60a6aa1))
+
+
+
+### BREAKING CHANGES
+
+#### Configuration changes needed
+
+You must change the dependency in your package.json from
+
+```
+   "@sealsystems/semantic-release-config": "a.b.c"
+```
+
+to 
+
+```
+   "@sealsystems/semantic-release": "x.y.z"
+```
+
+in order to use the new version.
+
+---
+
 ## 3.3.0 (2019-03-17)
 
 ### Features
