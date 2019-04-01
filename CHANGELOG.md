@@ -1,3 +1,14 @@
+## 4.0.1 (2019-04-01)
+
+### Chores
+
+
+#### Update dependencies ([bff4029](https://github.com/sealsystems/node-semantic-release/commit/bff4029))
+
+
+
+---
+
 ## 4.0.0 (2019-04-01)
 
 ### Features
