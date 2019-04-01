@@ -10,9 +10,8 @@
     "semantic-release": "15.13.3"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.2.3",
-    "@sealsystems/test-config-mocha": "1.0.3",
-    "assertthat": "2.0.3"
+    "@sealsystems/eslint-config-es": "3.3.3",
+    "@sealsystems/mocha": "2.0.1"
   },
   "bin": {
     "release": "bin/release"
@@ -21,11 +20,11 @@
     "bot": "bot",
     "lint": "lint",
     "lint:fix": "lint-fix",
+    "release": "node bin/release",
     "test": "test-run",
     "test:coverage": "test-coverage",
     "test:coverage:check": "test-coverage-check",
-    "test:report": "test-report",
-    "release": "node bin/release"
+    "test:report": "test-report"
   },
   "repository": {
     "type": "git",
