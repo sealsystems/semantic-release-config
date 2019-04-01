@@ -1,7 +1,7 @@
 {
-  "name": "@sealsystems/semantic-release-config",
+  "name": "@sealsystems/semantic-release",
   "version": "3.3.0",
-  "description": "Configuration for semantic releases at SEAL Systems",
+  "description": "Semantic Release executable and configuration for SEAL Systems",
   "dependencies": {
     "@semantic-release/changelog": "3.0.2",
     "@semantic-release/git": "7.0.8",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sealsystems/node-semantic-release-config.git"
+    "url": "git+https://github.com/sealsystems/node-semantic-release.git"
   },
   "author": {
     "name": "SEAL Systems AG",
@@ -38,9 +38,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sealsystems/node-semantic-release-config/issues"
+    "url": "https://github.com/sealsystems/node-semantic-release/issues"
   },
-  "homepage": "https://github.com/sealsystems/node-semantic-release-config#readme",
+  "homepage": "https://github.com/sealsystems/node-semantic-release#readme",
   "release": {
     "extends": "./node-module.js"
   },

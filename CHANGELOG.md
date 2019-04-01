@@ -3,7 +3,7 @@
 ### Features
 
 
-#### Provide release script ([54af315](https://github.com/sealsystems/node-semantic-release-config/commit/54af315))
+#### Provide release script ([54af315](https://github.com/sealsystems/node-semantic-release/commit/54af315))
 
 
 
@@ -14,7 +14,7 @@
 ### Features
 
 
-#### Linkify references ([f9f35e6](https://github.com/sealsystems/node-semantic-release-config/commit/f9f35e6))
+#### Linkify references ([f9f35e6](https://github.com/sealsystems/node-semantic-release/commit/f9f35e6))
 
 
 
@@ -25,7 +25,7 @@
 ### Chores
 
 
-#### Add 'Chores' to changelog ([ab7b6e5](https://github.com/sealsystems/node-semantic-release-config/commit/ab7b6e5))
+#### Add 'Chores' to changelog ([ab7b6e5](https://github.com/sealsystems/node-semantic-release/commit/ab7b6e5))
 
 
 
@@ -42,7 +42,7 @@
 ### Features
 
 
-#### Add semantic-release binary ([13ea34a](https://github.com/sealsystems/node-semantic-release-config/commit/13ea34a))
+#### Add semantic-release binary ([13ea34a](https://github.com/sealsystems/node-semantic-release/commit/13ea34a))
 
 
 

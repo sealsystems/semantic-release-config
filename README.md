@@ -1,14 +1,18 @@
-# semantic-release-config
+# semantic-release
 
-Configuration for semantic releases at SEAL Systems
+Semantic Release executable and configuration for SEAL Systems
 
 ## Getting started
 
 First, you have to install the module as a development dependency:
 
 ```shell
-npm install --save-dev @sealsystems/semantic-release-config
+npm install --save-dev @sealsystems/semantic-release
 ```
+
+Please note:
+
+- In order to install all dependencies directly in the project's `node_modules` folder, you may need to delete `package-lock.json` before adding this package.
 
 The following release configurations are available:
 
@@ -24,7 +28,7 @@ To create binary releases, insert the following lines into your package.json:
 
 ```
 "release": {
-  "extends": "@sealsystems/semantic-release-config/generic",
+  "extends": "@sealsystems/semantic-release/generic",
 }
 ```
 
@@ -36,7 +40,7 @@ To release a Node.js module, insert the following lines into your package.json:
 
 ```
 "release": {
-  "extends": "@sealsystems/semantic-release-config/node-module"
+  "extends": "@sealsystems/semantic-release/node-module"
 }
 ```
 
@@ -48,7 +52,7 @@ To release a Node.js binary, insert the following lines into your package.json:
 
 ```
 "release": {
-  "extends": "@sealsystems/semantic-release-config/node-binary"
+  "extends": "@sealsystems/semantic-release/node-binary"
 }
 ```
 
