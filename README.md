@@ -62,7 +62,7 @@ This module provides an NPM executable that calls `semantic-release`. To use it,
 
 ```json
 "scripts": {
-  "release": "release",
+  "release": "release"
 }
 ```
 
