@@ -10,8 +10,9 @@ suite('changelogTemplate', () => {
   });
 
   test('contains the expected contents.', async () => {
-    assert.that(changelogTemplate).is.equalTo({
-      /* eslint-disable */
+    /* eslint-disable */
+    const expected =
+{
   transform: (commit, context) => {
     let discard = true;
     const issues = [];
@@ -89,7 +90,20 @@ suite('changelogTemplate', () => {
   headerPartial: '\n## {{version}}\n  {{~#if date}} ({{date}})\n  {{~/if~}}',
   commitPartial: '\n#### {{subject}}\n\n{{~!-- commit references --}}\n{{~#if references~}}\n  {{~#each references}}, [{{this.issue}}]({{this.raw}})\n  {{~/each~}}\n{{~/if}}\n\n{{~!-- commit link --}} {{#if @root.linkReferences~}}\n  ([{{hash}}](\n  {{~#if @root.repository}}\n    {{~#if @root.host}}\n      {{~@root.host}}/\n    {{~/if}}\n    {{~#if @root.owner}}\n      {{~@root.owner}}/\n    {{~/if}}\n    {{~@root.repository}}\n  {{~else}}\n    {{~@root.repoUrl}}\n  {{~/if}}/\n  {{~@root.commit}}/{{hash}}))\n{{~else}}\n  {{~hash}}\n{{~/if}}\n\n{{#if body}}\n\n{{body}}\n\n{{~/if}}',
   footerPartial: '\n{{#if noteGroups}}\n{{#each noteGroups}}\n\n### {{title}}\n\n{{#each notes}}\n#### {{text}}\n{{/each}}\n{{/each}}\n{{/if}}'
-});
+};
+    /* eslint-enable */
 
-});
+    // Check all properties of changelogTemplate
+    for (const key in changelogTemplate) {
+      if (Object.prototype.hasOwnProperty.call(changelogTemplate, key)) {
+        assert.that(changelogTemplate[key]).is.equalTo(expected[key]);
+      }
+    }
+    // Cross-check all properties of expected object
+    for (const key in expected) {
+      if (Object.prototype.hasOwnProperty.call(expected, key)) {
+        assert.that(expected[key]).is.equalTo(changelogTemplate[key]);
+      }
+    }
+  });
 });

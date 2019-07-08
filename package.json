@@ -3,15 +3,15 @@
   "version": "4.0.1",
   "description": "Semantic Release executable and configuration for SEAL Systems",
   "dependencies": {
-    "@semantic-release/changelog": "3.0.2",
-    "@semantic-release/git": "7.0.8",
-    "@semantic-release/npm": "5.1.4",
+    "@semantic-release/changelog": "3.0.4",
+    "@semantic-release/git": "7.0.16",
+    "@semantic-release/npm": "5.1.13",
     "clone-deep": "4.0.1",
-    "semantic-release": "15.13.3"
+    "semantic-release": "15.13.18"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.3.3",
-    "@sealsystems/mocha": "2.0.1"
+    "@sealsystems/eslint-config-es": "3.3.5",
+    "@sealsystems/mocha": "3.0.1"
   },
   "bin": {
     "release": "bin/release"
