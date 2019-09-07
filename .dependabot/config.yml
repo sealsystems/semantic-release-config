@@ -21,10 +21,7 @@ update_configs:
       - match:
           dependency_name: "@sealsystems/*"
           update_type: "all"
-      # Trigger all updates for devDependencies
-      - match:
-          dependency_type: "development"
-          update_type: "all"
+      # Trigger NO updates for devDependencies! Would result in an endless loop!
     automerged_updates:
       # Auto-merge minor version updates for `seal-…` dependencies
       - match:
@@ -34,7 +31,3 @@ update_configs:
       - match:
           dependency_name: "@sealsystems/*"
           update_type: "semver:minor"
-      # Auto-merge all updates for devDependencies
-      - match:
-          dependency_type: "development"
-          update_type: "all"
