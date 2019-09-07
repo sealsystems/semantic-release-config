@@ -9,8 +9,8 @@ update_configs:
       prefix: "chore"
       include_scope: true
     allowed_updates:
-      # Trigger only security updates for dependencies by default
+      # Trigger all updates for dependencies
       - match:
           dependency_type: "production"
-          update_type: "security"
+          update_type: "all"
       # Trigger NO updates for devDependencies! Would result in an endless loop!
