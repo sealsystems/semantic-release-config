@@ -10,7 +10,7 @@
     "semantic-release": "15.13.18"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.3.5",
+    "@sealsystems/eslint-config-es": "3.3.7",
     "@sealsystems/mocha": "3.0.1"
   },
   "bin": {
