@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "3.3.7",
-    "@sealsystems/mocha": "3.0.7"
+    "@sealsystems/mocha": "3.0.8"
   },
   "bin": {
     "release": "bin/release"
