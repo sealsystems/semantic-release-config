@@ -1,3 +1,82 @@
+## 4.0.8 (2019-09-07)
+
+### Chores
+
+
+#### bump [@sealsystems](https://github.com/sealsystems)/mocha from 3.0.7 to 3.0.8 ([b3833df](https://github.com/sealsystems/node-semantic-release/commit/b3833df))
+
+Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.7 to 3.0.8.
+- [Release notes](https://github.com/sealsystems/node-mocha/releases)
+- [Changelog](https://github.com/sealsystems/node-mocha/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/sealsystems/node-mocha/compare/3.0.7...3.0.8)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
+## 4.0.7 (2019-09-07)
+
+### Chores
+
+
+#### bump [@sealsystems](https://github.com/sealsystems)/mocha from 3.0.6 to 3.0.7 ([93aa61f](https://github.com/sealsystems/node-semantic-release/commit/93aa61f))
+
+Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.6 to 3.0.7.
+- [Release notes](https://github.com/sealsystems/node-mocha/releases)
+- [Changelog](https://github.com/sealsystems/node-mocha/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/sealsystems/node-mocha/compare/3.0.6...3.0.7)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
+## 4.0.6 (2019-09-07)
+
+### Chores
+
+
+#### bump [@sealsystems](https://github.com/sealsystems)/mocha from 3.0.4 to 3.0.6 ([d72385f](https://github.com/sealsystems/node-semantic-release/commit/d72385f))
+
+Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.4 to 3.0.6.
+- [Release notes](https://github.com/sealsystems/node-mocha/releases)
+- [Changelog](https://github.com/sealsystems/node-mocha/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/sealsystems/node-mocha/compare/3.0.4...3.0.6)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
+## 4.0.5 (2019-09-07)
+
+### Chores
+
+
+#### bump [@sealsystems](https://github.com/sealsystems)/mocha from 3.0.1 to 3.0.4 ([fea58f0](https://github.com/sealsystems/node-semantic-release/commit/fea58f0))
+
+Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.1 to 3.0.4.
+- [Release notes](https://github.com/sealsystems/node-mocha/releases)
+- [Changelog](https://github.com/sealsystems/node-mocha/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/sealsystems/node-mocha/compare/3.0.1...3.0.4)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
+## 4.0.4 (2019-09-07)
+
+### Chores
+
+
+#### Fix .npmignore ([8718589](https://github.com/sealsystems/node-semantic-release/commit/8718589))
+
+
+
+---
+
 ## 4.0.3 (2019-09-07)
 
 ### Chores
