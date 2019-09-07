@@ -1,3 +1,14 @@
+## 4.0.12 (2019-09-07)
+
+### Chores
+
+
+#### Update dependencies ([4e0656e](https://github.com/sealsystems/node-semantic-release/commit/4e0656e))
+
+
+
+---
+
 ## 4.0.11 (2019-09-07)
 
 ### Chores
