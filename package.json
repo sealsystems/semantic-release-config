@@ -1,6 +1,6 @@
 {
   "name": "@sealsystems/semantic-release",
-  "version": "4.0.7",
+  "version": "4.0.8",
   "description": "Semantic Release executable and configuration for SEAL Systems",
   "dependencies": {
     "@semantic-release/changelog": "3.0.4",
