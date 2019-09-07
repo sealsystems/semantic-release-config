@@ -1,3 +1,14 @@
+## 4.0.4 (2019-09-07)
+
+### Chores
+
+
+#### Fix .npmignore ([8718589](https://github.com/sealsystems/node-semantic-release/commit/8718589))
+
+
+
+---
+
 ## 4.0.3 (2019-09-07)
 
 ### Chores
