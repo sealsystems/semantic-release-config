@@ -10,8 +10,8 @@
     "semantic-release": "15.13.24"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "sealsystems/node-eslint-config-es",
-    "@sealsystems/mocha": "sealsystems/node-mocha"
+    "@sealsystems/eslint-config-es": "3.3.13",
+    "@sealsystems/mocha": "0.0.0a"
   },
   "bin": {
     "release": "bin/release"
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sealsystems/node-semantic-release.git"
+    "url": "git+https://github.com/0.0.0t"
   },
   "author": {
     "name": "SEAL Systems AG",

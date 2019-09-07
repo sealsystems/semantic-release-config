@@ -74,4 +74,4 @@ npm run release
 
 ## Implementation details
 
-**Please note:** This module is part of the build and release infrastructure. In [package.json](package.json), all other related modules are referenced not by version numbers but by the repository name. This prevents a loop when automatically updating dependencies via Dependabot.
+**Please note:** This module is part of the build and release infrastructure. In order to prevent endless loops when automatically updating dependencies via Dependabot, devDependencies are not included in the [config file](.dependabot/config.yml).
