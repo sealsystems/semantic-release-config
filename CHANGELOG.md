@@ -1,3 +1,21 @@
+## 4.0.9 (2019-09-07)
+
+### Chores
+
+
+#### Reference other build-related modules by repository name ([0a6cb4a](https://github.com/sealsystems/node-semantic-release/commit/0a6cb4a))
+
+#### bump [@sealsystems](https://github.com/sealsystems)/mocha from `14d4478` to `75bf0b1` ([a355766](https://github.com/sealsystems/node-semantic-release/commit/a355766))
+
+Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from `14d4478` to `75bf0b1`.
+- [Release notes](https://github.com/sealsystems/node-mocha/releases)
+- [Commits](https://github.com/sealsystems/node-mocha/compare/14d4478e9b765bbd8f553eaa9fcd27728e175651...75bf0b15d7e554bc05bb597b000b1c0ab63af97a)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
 ## 4.0.8 (2019-09-07)
 
 ### Chores
