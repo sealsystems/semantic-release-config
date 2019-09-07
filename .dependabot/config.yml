@@ -5,6 +5,8 @@ update_configs:
     directory: "/"
     update_schedule: "live"
     version_requirement_updates: "increase_versions"
+    default_reviewers:
+      - "seal-mis"
     commit_message:
       prefix: "chore"
       include_scope: true
