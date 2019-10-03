@@ -1,3 +1,14 @@
+## 4.0.13 (2019-10-03)
+
+### Chores
+
+
+#### bump [@semantic-release](https://github.com/semantic-release)/npm from 5.1.15 to 5.2.0 ([1d7a0f9](https://github.com/sealsystems/node-semantic-release/commit/1d7a0f9))
+
+
+
+---
+
 ## 4.0.12 (2019-09-07)
 
 ### Chores
