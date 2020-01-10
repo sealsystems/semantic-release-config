@@ -1,3 +1,14 @@
+## 4.0.14 (2020-01-10)
+
+### Chores
+
+
+#### Update dependencies ([e0ba7af](https://github.com/sealsystems/node-semantic-release/commit/e0ba7af))
+
+
+
+---
+
 ## 4.0.13 (2019-10-03)
 
 ### Chores
