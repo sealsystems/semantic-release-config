@@ -7,7 +7,7 @@
     "@semantic-release/git": "8.0.0",
     "@semantic-release/npm": "6.0.0",
     "clone-deep": "4.0.1",
-    "semantic-release": "16.0.1"
+    "semantic-release": "15.14.0"
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "3.6.0",
