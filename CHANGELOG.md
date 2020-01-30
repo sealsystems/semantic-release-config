@@ -1,3 +1,19 @@
+## 4.0.18 (2020-01-30)
+
+### Chores
+
+
+#### bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.4 to 3.0.6 ([7dc4c03](https://github.com/sealsystems/node-semantic-release/commit/7dc4c03))
+
+Bumps [@semantic-release/changelog](https://github.com/semantic-release/changelog) from 3.0.4 to 3.0.6.
+- [Release notes](https://github.com/semantic-release/changelog/releases)
+- [Commits](https://github.com/semantic-release/changelog/compare/v3.0.4...v3.0.6)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
 ## 4.0.17 (2020-01-30)
 
 ### Chores
