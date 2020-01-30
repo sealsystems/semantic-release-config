@@ -5,7 +5,7 @@
   "dependencies": {
     "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "8.0.0",
-    "@semantic-release/npm": "6.0.0",
+    "@semantic-release/npm": "7.0.0",
     "clone-deep": "4.0.1",
     "semantic-release": "16.0.4"
   },
