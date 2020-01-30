@@ -1,3 +1,19 @@
+## 4.0.17 (2020-01-30)
+
+### Chores
+
+
+#### bump [@semantic-release](https://github.com/semantic-release)/git from 8.0.0 to 9.0.0 ([1e9fe53](https://github.com/sealsystems/node-semantic-release/commit/1e9fe53))
+
+Bumps [@semantic-release/git](https://github.com/semantic-release/git) from 8.0.0 to 9.0.0.
+- [Release notes](https://github.com/semantic-release/git/releases)
+- [Commits](https://github.com/semantic-release/git/compare/v8.0.0...v9.0.0)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
 ## 4.0.16 (2020-01-30)
 
 ### Chores
