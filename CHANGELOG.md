@@ -1,3 +1,19 @@
+## 4.0.15 (2020-01-30)
+
+### Chores
+
+
+#### bump semantic-release from 16.0.1 to 16.0.4 ([aa0586e](https://github.com/sealsystems/node-semantic-release/commit/aa0586e))
+
+Bumps [semantic-release](https://github.com/semantic-release/semantic-release) from 16.0.1 to 16.0.4.
+- [Release notes](https://github.com/semantic-release/semantic-release/releases)
+- [Commits](https://github.com/semantic-release/semantic-release/compare/v16.0.1...v16.0.4)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+
+---
+
 ## 4.0.14 (2020-01-10)
 
 ### Chores
