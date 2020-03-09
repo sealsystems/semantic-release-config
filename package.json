@@ -20,7 +20,7 @@
     "licenses": "license-checker --production --csv",
     "lint": "lint",
     "lint:fix": "lint-fix",
-    "release": "release",
+    "release": "node bin/release",
     "test": "test-run",
     "test:coverage": "test-coverage",
     "test:coverage:check": "test-coverage-check",
