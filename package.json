@@ -6,8 +6,7 @@
     "@semantic-release/changelog": "5.0.0",
     "@semantic-release/git": "9.0.0",
     "@semantic-release/npm": "7.0.3",
-    "clone-deep": "4.0.1",
-    "semantic-release": "17.0.3"
+    "clone-deep": "4.0.1"
   },
   "devDependencies": {
     "@sealsystems/eslint-config-es": "3.6.2",
@@ -21,7 +20,7 @@
     "licenses": "license-checker --production --csv",
     "lint": "lint",
     "lint:fix": "lint-fix",
-    "release": "node bin/release",
+    "release": "release",
     "test": "test-run",
     "test:coverage": "test-coverage",
     "test:coverage:check": "test-coverage-check",
@@ -42,9 +41,10 @@
   },
   "homepage": "https://github.com/sealsystems/node-semantic-release#readme",
   "release": {
-    "extends": "./node-module.js"
+    "extends": "@sealsystems/semantic-release/node-module"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
