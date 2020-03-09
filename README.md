@@ -1,6 +1,5 @@
 # semantic-release
 
-
 Semantic Release executable and configuration for SEAL Systems
 
 ## Getting started
