@@ -10,6 +10,7 @@ First, you have to install the module as a development dependency:
 npm install --save-dev @sealsystems/semantic-release
 ```
 
+
 Please note:
 
 - In order to install all dependencies directly in the project's `node_modules` folder, you may need to delete `package-lock.json` before adding this package.
