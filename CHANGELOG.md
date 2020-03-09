@@ -1,3 +1,14 @@
+## 4.0.22 (2020-03-09)
+
+### Chores
+
+
+#### Trigger release ([32d4484](https://github.com/sealsystems/node-semantic-release/commit/32d4484))
+
+
+
+---
+
 ## 4.0.21 (2020-03-09)
 
 ### Chores
