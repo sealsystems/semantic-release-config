@@ -1,3 +1,14 @@
+## 4.0.21 (2020-03-09)
+
+### Chores
+
+
+#### yoed ([62beba7](https://github.com/sealsystems/node-semantic-release/commit/62beba7))
+
+
+
+---
+
 ## 4.0.20 (2020-02-15)
 
 ### Chores
