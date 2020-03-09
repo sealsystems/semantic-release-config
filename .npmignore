@@ -1,4 +1,6 @@
 *
-!*.js
 !/bin/**
 !/lib/**
+
+# Yeoman generators
+!/generators/**
