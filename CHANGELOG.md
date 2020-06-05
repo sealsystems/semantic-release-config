@@ -1,3 +1,14 @@
+## 4.1.0 (2020-06-05)
+
+### Features
+
+
+#### Allow keyword 'BREAKING CHANGE', too ([fe227ac](https://github.com/sealsystems/node-semantic-release/commit/fe227ac))
+
+
+
+---
+
 ## 4.0.22 (2020-03-09)
 
 ### Chores
