@@ -134,9 +134,9 @@ jobs:
       GIT_COMMITTER_EMAIL: com.git@sealsystems.de
       GIT_COMMITTER_NAME: CI Build
       # Use personal access token for creating releases on GitHub
-      GITHUB_TOKEN: ${{ secrets.GITHUB_CI_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.CI_TOKEN }}
       # Use personal access token for publishing on GitHub Packages
-      NPM_TOKEN: ${{ secrets.GITHUB_CI_TOKEN }}
+      NPM_TOKEN: ${{ secrets.CI_TOKEN }}
 
     steps:
     - uses: actions/checkout@v2
