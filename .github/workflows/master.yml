@@ -142,7 +142,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         # Use personal access token for cloning (and later pushing) code
-        token: ${{ secrets.GITHUB_CI_TOKEN }}
+        token: ${{ secrets.CI_TOKEN }}
 
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
