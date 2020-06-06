@@ -1,3 +1,14 @@
+## 4.2.0 (2020-06-06)
+
+### Features
+
+
+Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sealsystems/node-semantic-release/commit/bf75d62))
+
+
+
+---
+
 ## 4.1.2 (2020-06-06)
 
 ### Bug Fixes
