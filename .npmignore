@@ -2,5 +2,5 @@
 !/bin/**
 !/lib/**
 
-# Configurations to export
-!*.js
+# Yeoman generators
+!/generators/**
