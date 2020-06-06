@@ -1,3 +1,14 @@
+## 4.1.1 (2020-06-06)
+
+### Bug Fixes
+
+
+#### Add required shelljs as dependency ([2942022](https://github.com/sealsystems/node-semantic-release/commit/2942022))
+
+
+
+---
+
 ## 4.1.0 (2020-06-05)
 
 ### Features
