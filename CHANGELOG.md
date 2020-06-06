@@ -1,3 +1,14 @@
+## 4.1.2 (2020-06-06)
+
+### Bug Fixes
+
+
+#### Include release types in npm package ([3659ede](https://github.com/sealsystems/node-semantic-release/commit/3659ede))
+
+
+
+---
+
 ## 4.1.1 (2020-06-06)
 
 ### Bug Fixes
