@@ -1,3 +1,10 @@
+## 4.3.0 (2020-06-06)
+
+### Features
+
+
+Remove horizontal line between changelog entries ([3b9d12f](https://github.com/sealsystems/node-semantic-release/commit/3b9d12f))
+
 ## 4.2.1 (2020-06-06)
 
 ### Chores
