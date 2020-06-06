@@ -7,7 +7,6 @@ Do not install services for tests ([0b9983a](https://github.com/sealsystems/node
 
 
 
----
 
 ## 4.2.0 (2020-06-06)
 
@@ -18,7 +17,6 @@ Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sea
 
 
 
----
 
 ## 4.1.2 (2020-06-06)
 
@@ -29,7 +27,6 @@ Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sea
 
 
 
----
 
 ## 4.1.1 (2020-06-06)
 
@@ -40,7 +37,6 @@ Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sea
 
 
 
----
 
 ## 4.1.0 (2020-06-05)
 
@@ -51,7 +47,6 @@ Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sea
 
 
 
----
 
 ## 4.0.22 (2020-03-09)
 
@@ -62,7 +57,6 @@ Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sea
 
 
 
----
 
 ## 4.0.21 (2020-03-09)
 
@@ -73,7 +67,6 @@ Remove unneeded headings in Changelog template ([bf75d62](https://github.com/sea
 
 
 
----
 
 ## 4.0.20 (2020-02-15)
 
@@ -89,7 +82,6 @@ Bumps [@semantic-release/npm](https://github.com/semantic-release/npm) from 7.0.
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.19 (2020-02-15)
 
@@ -105,7 +97,6 @@ Bumps [semantic-release](https://github.com/semantic-release/semantic-release) f
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.18 (2020-01-30)
 
@@ -121,7 +112,6 @@ Bumps [@semantic-release/changelog](https://github.com/semantic-release/changelo
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.17 (2020-01-30)
 
@@ -137,7 +127,6 @@ Bumps [@semantic-release/git](https://github.com/semantic-release/git) from 8.0.
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.16 (2020-01-30)
 
@@ -153,7 +142,6 @@ Bumps [@semantic-release/npm](https://github.com/semantic-release/npm) from 6.0.
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.15 (2020-01-30)
 
@@ -169,7 +157,6 @@ Bumps [semantic-release](https://github.com/semantic-release/semantic-release) f
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.14 (2020-01-10)
 
@@ -180,7 +167,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.13 (2019-10-03)
 
@@ -191,7 +177,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.12 (2019-09-07)
 
@@ -202,7 +187,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.11 (2019-09-07)
 
@@ -215,7 +199,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.10 (2019-09-07)
 
@@ -226,7 +209,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.9 (2019-09-07)
 
@@ -244,7 +226,6 @@ Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from `14d4
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.8 (2019-09-07)
 
@@ -261,7 +242,6 @@ Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.7
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.7 (2019-09-07)
 
@@ -278,7 +258,6 @@ Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.6
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.6 (2019-09-07)
 
@@ -295,7 +274,6 @@ Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.4
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.5 (2019-09-07)
 
@@ -312,7 +290,6 @@ Bumps [@sealsystems/mocha](https://github.com/sealsystems/node-mocha) from 3.0.1
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.4 (2019-09-07)
 
@@ -323,7 +300,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.3 (2019-09-07)
 
@@ -340,7 +316,6 @@ Bumps [@sealsystems/eslint-config-es](https://github.com/sealsystems/node-eslint
 Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
----
 
 ## 4.0.2 (2019-07-08)
 
@@ -351,7 +326,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.1 (2019-04-01)
 
@@ -362,7 +336,6 @@ Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
 
 
 
----
 
 ## 4.0.0 (2019-04-01)
 
@@ -391,7 +364,6 @@ to
 
 in order to use the new version.
 
----
 
 ## 3.3.0 (2019-03-17)
 
@@ -402,7 +374,6 @@ in order to use the new version.
 
 
 
----
 
 ## 3.2.0 (2019-03-17)
 
@@ -413,7 +384,6 @@ in order to use the new version.
 
 
 
----
 
 ## 3.1.2 (2019-03-17)
 
@@ -424,13 +394,11 @@ in order to use the new version.
 
 
 
----
 
 ## 3.1.1 (2019-03-17)
 
 
 
----
 
 ## 3.1.0 (2019-03-17)
 
@@ -438,7 +406,3 @@ in order to use the new version.
 
 
 #### Add semantic-release binary ([13ea34a](https://github.com/sealsystems/node-semantic-release/commit/13ea34a))
-
-
-
----

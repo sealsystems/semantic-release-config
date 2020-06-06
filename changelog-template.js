@@ -89,8 +89,7 @@ module.exports = {
 {{/each}}
 
 {{> footer}}
-
----`,
+`,
 
   headerPartial: `
 ## {{version}}
