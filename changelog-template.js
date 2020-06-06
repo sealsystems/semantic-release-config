@@ -98,7 +98,7 @@ module.exports = {
   {{~/if~}}`,
 
   commitPartial: `
-#### {{subject}}
+{{subject}}
 
 {{~!-- commit references --}}
 {{~#if references~}}
@@ -137,7 +137,7 @@ module.exports = {
 ### {{title}}
 
 {{#each notes}}
-#### {{text}}
+{{text}}
 {{/each}}
 {{/each}}
 {{/if}}`
