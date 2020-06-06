@@ -1,3 +1,14 @@
+## 4.2.1 (2020-06-06)
+
+### Chores
+
+
+Do not install services for tests ([0b9983a](https://github.com/sealsystems/node-semantic-release/commit/0b9983a))
+
+
+
+---
+
 ## 4.2.0 (2020-06-06)
 
 ### Features
