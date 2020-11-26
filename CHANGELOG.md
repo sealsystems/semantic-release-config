@@ -1,3 +1,10 @@
+## 4.3.1 (2020-11-26)
+
+### Chores
+
+
+Update dependencies ([de9ac18](https://github.com/sealsystems/node-semantic-release/commit/de9ac18))
+
 ## 4.3.0 (2020-06-06)
 
 ### Features
