@@ -1,3 +1,10 @@
+## 4.3.2 (2020-12-21)
+
+### Chores
+
+
+bump [@semantic-release](https://github.com/semantic-release)/npm from 7.0.8 to 7.0.9 ([9e84b50](https://github.com/sealsystems/node-semantic-release/commit/9e84b50))
+
 ## 4.3.1 (2020-11-26)
 
 ### Chores
