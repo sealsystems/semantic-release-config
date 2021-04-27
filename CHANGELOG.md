@@ -1,3 +1,12 @@
+## 4.3.4 (2021-04-27)
+
+### Chores
+
+
+Update dependencies ([4540175](https://github.com/sealsystems/node-semantic-release/commit/4540175))
+
+Update dependencies ([f0279db](https://github.com/sealsystems/node-semantic-release/commit/f0279db))
+
 ## 4.3.3 (2021-04-27)
 
 ### Chores
