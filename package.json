@@ -5,14 +5,14 @@
   "dependencies": {
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
-    "@semantic-release/npm": "7.0.9",
+    "@semantic-release/npm": "7.1.1",
     "clone-deep": "4.0.1",
     "semantic-release": "17.4.2",
     "shelljs": "0.8.4"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.6.3",
-    "@sealsystems/mocha": "4.1.4"
+    "@sealsystems/eslint-config-es": "3.6.6",
+    "@sealsystems/mocha": "4.1.8"
   },
   "bin": {
     "release": "bin/release"
